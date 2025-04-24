@@ -1,0 +1,19 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=ceslerpdev;AccountKey=PG2sbApEmekiGCzEWnK+pq75FGGh99yiR/7sNhriuHyPd/daJtwmM/NPo4n+MjZ/x3I/uieFsuSR+AStZ/2v6A==;EndpointSuffix=core.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "LogLevel": "Debug",
+    "RunMode": "test", // test or live
+    "TestRecipients": "hn44447@gmail.com,chinthakagvt@gmail.com",
+    //"ERPDbConnectionString": "Server=DESKTOP-33648N1;Database=ERP;Trusted_Connection=True;TrustServerCertificate=True",
+    "ERPDbConnectionString": "Server=13.67.45.2;Database=ERPDev;User Id=cesl;Password=Apeach$@977ces;TrustServerCertificate=True",
+    "SmtpServer": "smtp.gmail.com",
+    "SmtpPort": "587",
+    //"SmtpUser": "harshanhome7@gmail.com",
+    //"SmtpPassword": "ocmtdxxkixvmhhhg"
+    "SmtpUser": "notifications.ceslerp@gmail.com",
+    "SmtpPassword": "quxgdjzhnrucznjs"
+  }
+}

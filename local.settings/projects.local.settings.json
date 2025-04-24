@@ -1,0 +1,20 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet-isolated",
+    "Jwt:Key": "JrBCnmFy2ekDz7WmAwG5JgBzKtQ618iKZzRpouMNtSinBegFd6VR44x1pzZY8vgCPf5ocak6MYJIZqcSk3eXNQ==",
+    "Jwt:Issuer": "jwt@ceslerp.lk",
+    "Jwt:Audience": "http://ceslerp.lk",
+    // Token lifetime in minutes
+    "Jwt:TtlInMinutes": 60,
+    //"FRMDbConnectionString": "Server=13.67.45.2;Database=FRMDev;Trusted_Connection=True;Userid=cesl;password=Apeach$@977ces;TrustServerCertificate=True",
+    //"ERPDbConnectionString": "Server=13.67.45.2;Database=ERPDev;Trusted_Connection=True;Userid=cesl;password=Apeach$@977ces;TrustServerCertificate=True",
+    "FRMDbConnectionString": "Server=DESKTOP-33648N1;Database=FRM;Trusted_Connection=True;TrustServerCertificate=True",
+    "ERPDbConnectionString": "Server=DESKTOP-33648N1;Database=ERP;Trusted_Connection=True;TrustServerCertificate=True",
+    "AZURE_STORAGE_CONNECTION_STRING": "DefaultEndpointsProtocol=https;AccountName=ceslerpdev;AccountKey=PG2sbApEmekiGCzEWnK+pq75FGGh99yiR/7sNhriuHyPd/daJtwmM/NPo4n+MjZ/x3I/uieFsuSR+AStZ/2v6A==;EndpointSuffix=core.windows.net",
+    "AttachmentsContainerName": "devharshan",
+    "AttachmentMaxSize": 10485760, // 10MB
+    "AllowedAttachmentTypes": "pdf,doc,docx,xls,xlsx,txt"
+  }
+}
