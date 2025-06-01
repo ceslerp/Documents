@@ -1,6 +1,6 @@
 # CESL ERP Projects Module
 
-This module handles the creation and manipulation of Projects and Suppliers. Creation of Project in the ERP is the first step of the project. CESL has a well defined project structure. Following digram depicts the projects structure of the CESL. There are 3 roles mainly involved in a project
+This module handles the creation and manipulation of Projects and Suppliers. Creation of a Project in the ERP is the first step of the project. CESL has a well defined project structure. Following digram depicts the projects structure of the CESL. There are three roles mainly involved in a project.
 
 - CEO - Chief Executive Officer
 - COE - Chief Operational Engineer
@@ -8,7 +8,7 @@ This module handles the creation and manipulation of Projects and Suppliers. Cre
 
 ![Publish Function Application](../assets/images/modules/projects/cesl_org_chart.png)
 
-A project is assigned to a relavent SOE and COE at the creation. After the creation, project will be handed over to the approval of COE. Once the COE approval is received, it will be handed over to the approval of CEO. If the CEO approved the project, project get active in the system and project will be given a unique id which is called  as Job Code. If COE or CEO reject the project, project will be rejected and will not process further.
+A project is assigned to a relevant SOE and COE at the project creation. After the creation, project will be handed over to the approval of COE. Once the COE approval is received, it will be handed over to the approval of CEO. If the CEO approved the project, project get active in the system and project will be given a unique id which is called  as Job Code. If COE or CEO reject the project, project will be rejected and will not process further.
 
 In CESL there are 2 types of projects
 
