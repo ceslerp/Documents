@@ -46,7 +46,7 @@ If COE or CEO rejected the project, it will be in the rejected state and will no
 |--------   | ---------|
 | On project Creation | Email to COE for approval |
 | COE Approved | Email to CEO for Approval |
-| COE Rejected | Email to CEO / Project Creator on status |
+| COE Rejected | Project Creator on status |
 | CEO Approved | Email to COE / Project Creator on status |
 | CEO Rejected | Email to COE / Project Creator on status |
 
